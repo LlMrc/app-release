@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+
+      backgroundImage: {
+			'hero-pattern': "url('../../public/images/eco.jpg')",
+		
+		},
     },
   },
   plugins: [],
