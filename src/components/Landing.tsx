@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import mockup from '../../public/images/prev.png';
 import background from '../../public/images/bac.png';
+import Link from 'next/link';
 
 
 
@@ -10,14 +11,11 @@ const Landing: React.FC = () => {
 
         <div className=" flex flex-col md:flex-row md:mt-14 items-center justify-evenly  font-[family-name:var(--font-geist-sans)]">
             <div className=" text-start mb-8 max-w-lg p-4 md:p-0  ">
-                <h1 className="title md:text-4xl text-2xl  font-bold text-gray-900 mb-4">Welcome to Code Groove</h1>
-                <h2 className="subtitle md:text-2xl text-lg text-gray-700 mb-2">Experience the future of technology</h2>
-                <p className=" md:text-lg text-gray-600">Our apps provides the best solutions for your needs. Join us and explore the endless possibilities.</p>
-                <button className='bg-gradient-to-tr text-slate-50 to-slate-900 from-blue-400 rounded p-2 mt-4 shadow-purple-700 drop-shadow-md hover:drop-shadow'>
-                    <a href="https://play.google.com/store/apps/dev?id=5352759552017891252">
-                        Free Download
-                    </a>
-                </button>
+                <h1 className="title md:text-4xl text-2xl  font-bold text-gray-900 mb-4">The Art of Reading While Listening to Music</h1>
+                <h2 className="subtitle md:text-2xl text-lg text-gray-700 mb-2">A Perfect Match?</h2>
+                <p className=" md:text-lg text-gray-600">Reading has long been cherished as a solitary, immersive activity. Whether it’s diving into a gripping novel, studying for exams, or catching up on insightful articles, the act of reading often demands focus and concentration. But what if we add music into the mix? Can melodies complement the written word, or are they just a distraction? Let’s explore the fascinating intersection of reading and music.</p>
+                <button  >  <Link className='p-2 flex justify-center  to-slate-900 from-blue-400 bg-gradient-to-bl drop-shadow-lg rounded text-white transition-all hover:scale-105' href="https://play.google.com/store/apps/dev?id=5352759552017891252">Download </Link></button>
+
             </div>
             <div className=" flex items-center justify-center ">
                 <div className="absolute   w-2/4 z-10">

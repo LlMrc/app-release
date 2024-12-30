@@ -3,8 +3,10 @@
 
 import AppLaunch from "@/components/AppLaunch";
 import ArrowBtn from "@/components/ArrowBtn";
+import BenefitsList from "@/components/BenefitList";
 import Card from "@/components/Card";
 import Landing from "@/components/Landing";
+import ReadingComponent from "@/components/Reading";
 
 
 export default function Home() {
@@ -16,7 +18,10 @@ export default function Home() {
         <main className="w-full">
           <Landing />
           <ArrowBtn />
+
           <AppLaunch />
+          <BenefitsList />
+          <ReadingComponent />
           <Card />
         </main>
 
