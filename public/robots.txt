@@ -1,6 +1,9 @@
+# *
 User-agent: *
-Disallow: /api/
-Disallow: /admin/
 Allow: /
 
-Sitemap: https://app-release.netlify.app/
+# Host
+Host: https://app-release.netlify.app
+
+# Sitemaps
+Sitemap: https://app-release.netlify.app/sitemap.xml

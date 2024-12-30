@@ -42,6 +42,7 @@ const NavBar = () => {
                     rel="noopener noreferrer"
                 >
                     <Image
+
                         aria-hidden
                         src="/globe.svg"
                         alt="Globe icon"
