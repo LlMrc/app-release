@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const NavBar = () => {
@@ -11,7 +12,7 @@ const NavBar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img
+                    <Image
                         aria-hidden
                         src="/file.svg"
                         alt="File icon"
@@ -25,7 +26,7 @@ const NavBar = () => {
                     href="mailto:llouismrc2@gmail.com"
                     rel="noopener noreferrer"
                 >
-                    <img
+                    <Image
                         aria-hidden
                         src="/window.svg"
                         alt="Window icon"
@@ -40,7 +41,7 @@ const NavBar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img
+                    <Image
                         aria-hidden
                         src="/globe.svg"
                         alt="Globe icon"
