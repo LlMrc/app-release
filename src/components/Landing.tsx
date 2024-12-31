@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Landing: React.FC = () => {
     return (
 
-        <div className=" flex flex-col md:flex-row md:mt-14 items-center justify-evenly  font-[family-name:var(--font-geist-sans)]">
+        <div className=" flex flex-col mt-10  md:flex-row md:mt-14 items-center justify-evenly  font-[family-name:var(--font-geist-sans)]">
             <div className=" text-start mb-8 max-w-lg p-4 md:p-0  ">
                 <h1 className="title md:text-4xl text-2xl  font-bold text-gray-900 mb-4">The Art of Reading While Listening to Music</h1>
                 <h2 className="subtitle md:text-2xl text-lg text-gray-700 mb-2">A Perfect Match?</h2>
@@ -22,7 +22,7 @@ const Landing: React.FC = () => {
 
                     <Image className='h-full' src={background} alt='<a href="https://lovepik.com/images/png-elemental-background.html">Elemental Background Png vectors by Lovepik.com</a>' />
                 </div>
-                <Image src={mockup} alt="App Marquette" className="app-image w-52 md:w-[32rem] h-auto mb-4 z-10" />
+                <Image src={mockup} alt="App Marquette" className="app-image w-full md:w-[32rem] h-auto mb-4 z-10" />
 
             </div>
         </div>
