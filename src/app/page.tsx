@@ -1,7 +1,7 @@
 
 'use client';
 
-import AppLaunch from "@/components/AppLaunch";
+import AppLaunch from "@/components/AbstactBackground";
 import ArrowBtn from "@/components/ArrowBtn";
 import BenefitsList from "@/components/BenefitList";
 import Card from "@/components/Card";

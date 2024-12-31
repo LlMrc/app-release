@@ -19,10 +19,9 @@ const VideoPlayer = () => {
         <div className="w-full h-full rounded-sm">
             <ReactPlayer
 
-                url="https://youtu.be/Q5-mL0V8Ayo"
+                url="https://youtu.be/yrqepZWDZ28?si=fHOUPR8gaT44ho-_"
                 playing={true}
                 loop={true}
-                muted={true}
                 controls={false}
                 width="100%"
                 height="100%"

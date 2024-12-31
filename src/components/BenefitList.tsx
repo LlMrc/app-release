@@ -7,7 +7,7 @@ const BenefitsList = () => {
     ];
 
     return (
-        <div className="flex flex-col items-center justify-center my-6 md:my-20 mx-auto md:w-2/3 p-2 md:p-0">
+        <div id="benefit" className="flex flex-col items-center justify-center my-6 md:my-20 mx-auto md:w-2/3 p-2 md:p-0">
             <ul className="list-disc pl-5 space-y-2 ">
                 {benefits.map((benefit, index) => {
                     const [title, description] = benefit.split(": ");

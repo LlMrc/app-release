@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import mockup from '../../public/images/prev.png';
+import mockup from '../../public/images/house.png';
 import background from '../../public/images/bac.png';
 import Link from 'next/link';
 
@@ -17,12 +17,12 @@ const Landing: React.FC = () => {
                 <button  >  <Link className='p-2 flex justify-center  to-slate-900 from-blue-400 bg-gradient-to-bl drop-shadow-lg rounded text-white transition-all hover:scale-105' href="https://play.google.com/store/apps/dev?id=5352759552017891252">Download </Link></button>
 
             </div>
-            <div className=" flex items-center justify-center ">
-                <div className="absolute   w-2/4 z-10">
+            <div className=" flex items-center   justify-center ">
+                <div className="absolute h-96 md:h-screen  z-10">
 
-                    <Image src={background} alt='<a href="https://lovepik.com/images/png-elemental-background.html">Elemental Background Png vectors by Lovepik.com</a>' />
+                    <Image className='h-full' src={background} alt='<a href="https://lovepik.com/images/png-elemental-background.html">Elemental Background Png vectors by Lovepik.com</a>' />
                 </div>
-                <Image src={mockup} alt="App Marquette" className="app-image w-52 md:w-[28rem] h-auto mb-4 z-10" />
+                <Image src={mockup} alt="App Marquette" className="app-image w-52 md:w-[32rem] h-auto mb-4 z-10" />
 
             </div>
         </div>
