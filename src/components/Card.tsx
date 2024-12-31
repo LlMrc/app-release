@@ -16,7 +16,7 @@ const Card = () => {
             </div>
 
             <div className='flex gap-12 flex-col md:flex-row overflow-x-scroll pb-6 px-2 box-content '>
-                {itemData.map((item) => (<div key={item.id} className='rounded-md px-4 min-w-96 py-2  bg-slate-200  bg-opacity-55 flex flex-col drop-shadow-2xl'>
+                {itemData.map((item) => (<div key={item.id} className='rounded-md px-4 md:min-w-96 py-2  bg-slate-200  bg-opacity-55 flex flex-col drop-shadow-2xl'>
                     <div className='rounded-lg p-2 bg-opacity-30 bg-slate-100'>
                         <Image className='rounded-md max-h-[150px]' src={item.image} alt={item.title} />
 
