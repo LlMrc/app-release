@@ -3,11 +3,10 @@ import React from 'react'
 
 function ArrowBtn() {
     return (
-        <div className=' '>
+        <div className='hidden md:block'>
             <a href='#benefit'>
                 <Image
-
-                    className='w-10 -rotate-90 ml-[35rem] mt-12 transition-transform hover:translate-y-2'
+                    className='w-10 -rotate-90 md:ml-[35rem] mt-12 transition-transform hover:translate-y-2'
                     aria-hidden
                     src="/arrow-left.svg"
                     alt="File icon"
@@ -15,7 +14,6 @@ function ArrowBtn() {
                     height={16}
                 />
             </a>
-
         </div>
     )
 }

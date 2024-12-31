@@ -22,7 +22,7 @@ const Landing: React.FC = () => {
 
                     <Image className='h-full' src={background} alt='<a href="https://lovepik.com/images/png-elemental-background.html">Elemental Background Png vectors by Lovepik.com</a>' />
                 </div>
-                <Image src={mockup} alt="App Marquette" className="app-image w-full md:w-[32rem] h-auto mb-4 z-10" />
+                <Image src={mockup} alt="App Marquette" className="app-image w-screen md:w-[32rem] h-auto mb-4 z-10" />
 
             </div>
         </div>

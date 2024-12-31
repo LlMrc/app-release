@@ -18,7 +18,6 @@ export default function Home() {
         <main className="w-full">
           <Landing />
           <ArrowBtn />
-
           <AppLaunch />
           <BenefitsList />
           <ReadingComponent />
