@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Img from "../../public/images/3.png"
+import Img from "../../public/images/cat.jpeg"
 
 
 const ReadingComponent = () => {
@@ -11,7 +11,7 @@ const ReadingComponent = () => {
             <div className="flex flex-col md:flex-row items-center  bg-slate- md:items-start space-y-4 md:space-y-0 md:space-x-6 p-4">
                 {/* Image Section */}
 
-                <div className="float-start w-full md:w-1/3">
+                <div className="float-start w-full  md:w-1/3">
                     <Image
                         src={Img}
                         alt="Reading with music"
@@ -30,7 +30,7 @@ const ReadingComponent = () => {
                             <strong>Instrumental and Classical Music:</strong> Pieces by composers like Bach, Mozart, or Ludovico Einaudi provide a soothing backdrop without competing for your attention.
                         </li>
                         <li>
-                            <strong>Ambient Music:</strong> Artists like <a className="text-cyan-300 hover:text-blue-700" href="https://faroutmagazine.co.uk/playlist-the-50-best-songs-produced-by-brian-eno/" target="_blank">Brian Eno </a> or <a className="text-cyan-300 hover:text-blue-700" href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO3aYPQY" target="_blank">Tycho</a> create soundscapes that blend effortlessly into the background.
+                            <strong>Ambient Music:</strong> Artists like <a className="text-cyan-300 hover:text-blue-700" href="https://www.youtube.com/watch?v=BfOcbaV7a_M" target="_blank">Phil collins</a> and <a className="text-cyan-300 hover:text-blue-700" href="https://www.youtube.com/watch?v=MRjVdu_cLwI&t=2641s" target="_blank">Leonard Cohen </a>  create soundscapes that blend effortlessly into the background.
                         </li>
                         <li>
                             <strong><a href="https://www.youtube.com/watch?v=n61ULEU7CO0" about="_blank" className=" hover:text-blue-700">Lo-fi Beats:</a></strong> The ever-popular lo-fi hip-hop and <a className="text-cyan-300 hover:text-blue-700" href="https://youtu.be/jrTMMG0zJyI?si=9BGDkjco1YBykpeh" target="_blank">Samurai</a> genre is perfect for creating a relaxed, focused vibe.
