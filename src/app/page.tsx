@@ -5,6 +5,7 @@ import AppLaunch from "@/components/AbstactBackground";
 import ArrowBtn from "@/components/ArrowBtn";
 import BenefitsList from "@/components/BenefitList";
 import Card from "@/components/Card";
+import Conclusion from "@/components/Conclusion";
 import Landing from "@/components/Landing";
 import ReadingComponent from "@/components/Reading";
 
@@ -21,6 +22,7 @@ export default function Home() {
           <AppLaunch />
           <BenefitsList />
           <ReadingComponent />
+          <Conclusion />
           <Card />
         </main>
 

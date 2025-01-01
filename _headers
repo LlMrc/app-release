@@ -1,9 +1,8 @@
-# En-têtes pour sitemap.xml
 /sitemap.xml
   Access-Control-Allow-Origin: *
   X-Robots-Tag: all
 
-# En-têtes pour sitemap-0.xml
+
 /sitemap-0.xml
   Access-Control-Allow-Origin: *
   X-Robots-Tag: all
