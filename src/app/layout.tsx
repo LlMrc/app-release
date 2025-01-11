@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Explore My Apps – Designed by Louis Marc Leonard",
-  description: "Get the latest apps designed by Louis Marc Leonard. Whether you're looking for productivity tools or fun creative apps, find everything you need to get things done and enjoy your time",
+  title: "The Art of Reading While Listening to Music",
+  description: "Reading has long been cherished as a solitary, immersive activity. Whether it’s diving into a gripping novel, studying for exams, or catching up on insightful articles, the act of reading often demands focus and concentration. But what if we add music into the mix? Can melodies complement the written word, or are they just a distraction? Let’s explore the fascinating intersection of reading and music",
 };
 
 export default function RootLayout({
